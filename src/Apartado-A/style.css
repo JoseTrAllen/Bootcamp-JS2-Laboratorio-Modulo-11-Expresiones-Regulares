@@ -19,15 +19,12 @@ main {
 }
 
 #input-div-iban {
-  background-color: whitesmoke;
+  background-color: rgb(255, 255, 255);
   padding: 40px 10px;
   border-radius: 8px;
   display: flex;
   flex-direction: column;
   gap: 5px;
-  /* min-width: 400px; */
-  width: 80%;
-  max-width: 500px;
   min-width: 370px;
 }
 
@@ -58,4 +55,11 @@ main {
 
 .material-symbols-outlined:hover {
   transform: scale(1.080);
+}
+
+.info-iban {
+  background-color: rgba(128, 128, 128, 0.26);
+  padding: 5px;
+  margin-top: 10px;
+  border-radius: 5px;
 }
