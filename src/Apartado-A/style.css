@@ -38,7 +38,7 @@ main {
   gap: 10px;
 }
 
-#iban-input {
+#input {
   font-family: "Poppins", sans-serif;
   font-size: 1rem;
   padding: 5px 10px;
@@ -57,7 +57,7 @@ main {
   transform: scale(1.080);
 }
 
-.info-iban {
+.info {
   background-color: rgba(128, 128, 128, 0.26);
   padding: 5px;
   margin-top: 10px;
