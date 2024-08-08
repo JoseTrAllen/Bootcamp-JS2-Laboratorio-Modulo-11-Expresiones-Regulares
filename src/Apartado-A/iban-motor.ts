@@ -8,7 +8,7 @@ export const regexIban = (iban: string): boolean => {
 };
 
 export const validatedIban = (iban: string): boolean => {
-  return isValidIBAN(iban.replace(/[ .-]/g, '')) ? true : false
+  return isValidIBAN(iban.replace(/[ .-]/g, ''));
 };
 
 export const extractCodesIban = (iban: string): IBAN | null => {
